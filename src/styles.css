@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: #2193b0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6dd5ed,
+    #2193b0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6dd5ed,
+    #2193b0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+input {
+  background: none;
+  border: 1px solid black;
+  height: 2rem;
+  width: 12rem;
+  margin-right: 5px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+select {
+  height: 2rem;
+  width: 8rem;
+  background: none;
+  border: 1px solid black;
+  margin-right: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
